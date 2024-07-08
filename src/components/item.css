@@ -1,0 +1,54 @@
+.main {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 100px;
+   padding: 0 50px;
+}
+
+ul,
+li {
+   list-style: none;
+   user-select: none;
+}
+
+section {
+   display: flex;
+   flex-direction: column;
+   align-items: left;
+   text-align: left;
+}
+
+.box {
+   width: 100px;
+   height: 120px;
+   border: 1px solid black;
+   /* background-color: purple; */
+}
+
+button {
+   width: 100px;
+   cursor: pointer;
+}
+
+.up-section {
+   display: flex;
+   gap: 5px;
+   flex-direction: row;
+}
+
+.up-side {
+   display: flex;
+   flex-direction: column;
+
+}
+
+.up {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   width: 90%;
+}
+
+.up-button {
+   margin-top: 20px;
+}
